@@ -14,6 +14,7 @@ namespace CommonDataModels
         public string? ProjectName { get; set; }
         public DateTime? DueDate { get; set; }
         public DateTime? ExportedDate { get; set; }
+        public bool Draft { get; set; }
 
         public decimal? NettValue { get; set; }
         public decimal? GrossValue { get; set; }
